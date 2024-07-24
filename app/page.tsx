@@ -1,11 +1,11 @@
-import Image from "next/image";
-import { Hero } from "./components";
+import { Hero, HeroContent, About } from "./components";
 
 export default function Home() {
   return (
     <section>
       <Hero />
-      {/* <Hero /> */}
+      <HeroContent />
+      <About />
     </section>
   );
 }

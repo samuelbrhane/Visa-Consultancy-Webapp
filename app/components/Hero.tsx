@@ -46,7 +46,7 @@ const Hero = () => {
       <div className="absolute inset-0 flex flex-col items-center justify-start text-white p-4">
         <motion.h1
           ref={h1Ref}
-          className="text-3xl lg:text-5xl font-bold text-center mt-16 uppercase"
+          className="text-3xl lg:text-5xl font-bold text-center mt-8 md:mt-20 lg:mt-8 uppercase text-[#c7e736]"
           initial={{ y: -50, opacity: 0 }}
           animate={h1InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1 }}
@@ -75,7 +75,7 @@ const Hero = () => {
 
         <motion.p
           ref={pRef}
-          className="mt-4 text-center max-w-2xl text-lg mb-4"
+          className="mt-4 text-center max-w-2xl text-[14px] md:text-lg mb-4 md:mb-8 lg:mb-4"
           initial={{ y: 50, opacity: 0 }}
           animate={pInView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
