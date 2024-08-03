@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { links } from "../../utils/links";
+import { links } from "../../../utils/links";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 

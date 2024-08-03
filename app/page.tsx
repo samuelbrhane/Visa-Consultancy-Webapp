@@ -1,4 +1,5 @@
-import { Hero, HeroContent, About } from "./components";
+import { Hero, HeroContent } from "./components/Hero";
+import { About } from "./components/About";
 
 export default function Home() {
   return (

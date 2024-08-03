@@ -1,11 +1,8 @@
-export { default as Header } from "./Header";
-export { default as Footer } from "./Footer";
-export { default as Hero } from "./Hero";
-export { default as HeroContent } from "./HeroContent";
-export { default as HeroCard } from "./HeroCard";
 export { default as About } from "./About";
 export { default as MissionVision } from "./MissionVision";
 export { default as CompanyIntro } from "./CompanyIntro";
 export { default as CompanyCard } from "./CompanyCard";
 export { default as CompanyText } from "./CompanyText";
 export { default as AboutImage } from "./AboutImage";
+export { default as MissionCard } from "./MissionCard";
+export { default as MissionTexts } from "./MissionTexts";
