@@ -65,13 +65,7 @@ const AboutImage = () => {
           Fast Service
         </p>
       </div>
-      <motion.div
-        className="hidden md:block absolute -bottom-8 -left-4"
-        ref={refBottomLeft}
-        initial="hidden"
-        animate={controlsBottomLeft}
-        variants={bottomLeftVariants}
-      >
+      <motion.div className="hidden md:block absolute -bottom-8 -left-4">
         <Image
           src="/hero1.jpg"
           alt="Passport"

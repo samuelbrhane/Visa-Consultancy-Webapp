@@ -27,3 +27,22 @@
 .slide-out {
   animation: slideOut 0.5s forwards;
 }
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
+  animation: fadeInLeft 1.2s ease-in-out;
+}
+
+.shadow-custom {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
