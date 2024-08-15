@@ -5,7 +5,8 @@ import { ChooseUs, Service } from "./components/Service";
 import BackgroundWrapper from "./BackgroundWrapper";
 import { FunFactSection } from "./components/FunFact";
 import { FavoriteDestinations } from "./components/Country";
-import { HowWeWork } from "./components/Steps";
+import { Consultation, HowWeWork } from "./components/Steps";
+import { ContactSection } from "./components/Contact";
 
 export default function Home() {
   return (
@@ -25,8 +26,12 @@ export default function Home() {
         <ChooseUs />
         <FavoriteDestinations />
       </BackgroundWrapper>
-      <BackgroundWrapper backgroundImage="./wrapper3.jpg">
+      <BackgroundWrapper backgroundImage="./logo2.png">
         <HowWeWork />
+        <Consultation />
+      </BackgroundWrapper>
+      <BackgroundWrapper backgroundImage="./plane1.jpg">
+        <ContactSection />
       </BackgroundWrapper>
     </section>
   );

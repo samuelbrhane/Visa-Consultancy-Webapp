@@ -21,11 +21,11 @@ const StepCard: React.FC<StepCardProps> = ({
       className="flex items-center gap-4"
       initial={{ opacity: 0, x: -50 }}
       whileInView={{ opacity: 1, x: 0 }}
-      viewport={{ once: true }}
+      viewport={{ once: false, amount: 0.5 }}
       transition={{ duration: 0.6, delay }}
     >
-      <div className="flex-shrink-0 p-4 bg-blue-500 rounded-full">
-        <FontAwesomeIcon icon={icon} className="text-white text-2xl" />
+      <div className="flex-shrink-0 p-4 border-4 border-orange-400 rounded w-[60px] h-[60px] flex items-center justify-center">
+        <FontAwesomeIcon icon={icon} className="text-4xl" />
       </div>
       <div>
         <h3 className="text-xl font-semibold">{title}</h3>

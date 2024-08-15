@@ -17,7 +17,7 @@ const Partner: React.FC = () => {
           }
         });
       },
-      { threshold: 0.3 } // Adjust this threshold as needed
+      { threshold: 0.3 }
     );
 
     if (fadeInRef.current) {
@@ -32,7 +32,7 @@ const Partner: React.FC = () => {
   }, []);
 
   return (
-    <section className="flex flex-col-reverse lg:flex-row w-full mb-12">
+    <section className="flex flex-col-reverse lg:flex-row w-full mb-12 mt-28">
       <div
         ref={fadeInRef}
         className={`w-full lg:w-1/2 -my-10 px-4 md:px-6 lg:px-12 bg-blue-800 flex items-center justify-center rounded-r-xl ${

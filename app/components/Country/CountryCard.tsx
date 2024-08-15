@@ -23,7 +23,7 @@ const CountryCard: React.FC<CountryCardProps> = ({
   return (
     <motion.div
       ref={ref}
-      className="flex flex-col justify-center items-center gap-4 shadow-md w-[300px]"
+      className="flex flex-col justify-center items-center gap-4 shadow-md w-full"
       initial={{ opacity: 0, y: 50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
       transition={{ duration: 0.6, delay }}

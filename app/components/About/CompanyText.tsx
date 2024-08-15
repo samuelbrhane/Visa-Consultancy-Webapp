@@ -58,25 +58,25 @@ const CompanyText = () => {
 
   const headerVariants = {
     hidden: { opacity: 0, y: -30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.3 } },
   };
 
   const subheaderVariants = {
     hidden: { opacity: 0, x: -30 },
-    visible: { opacity: 1, x: 0, transition: { duration: 0.6, delay: 0.1 } },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.4, delay: 0.1 } },
   };
 
   const paragraphVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.6, delay: 0.2 } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4, delay: 0.2 } },
   };
 
   const cardsVariants = {
-    hidden: { opacity: 0, y: 30 },
+    hidden: { opacity: 0, y: 20 },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { staggerChildren: 0.2, delay: 0.3, duration: 0.8 },
+      transition: { staggerChildren: 0.2, delay: 0.1, duration: 0.5 },
     },
   };
 
