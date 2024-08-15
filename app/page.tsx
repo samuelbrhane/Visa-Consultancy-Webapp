@@ -10,7 +10,7 @@ import { ContactSection } from "./components/Contact";
 
 export default function Home() {
   return (
-    <section>
+    <section className="overflow-hidden">
       <Hero />
       <HeroContent />
       <BackgroundWrapper backgroundImage="./wrapper1.jpg">
@@ -18,18 +18,22 @@ export default function Home() {
       </BackgroundWrapper>
 
       <Partner />
+
       <BackgroundWrapper backgroundImage="./travel1.jpg">
         <Service />
         <FunFactSection />
       </BackgroundWrapper>
+
       <BackgroundWrapper backgroundImage="./logo2.png">
         <ChooseUs />
         <FavoriteDestinations />
       </BackgroundWrapper>
+
       <BackgroundWrapper backgroundImage="./logo2.png">
         <HowWeWork />
         <Consultation />
       </BackgroundWrapper>
+
       <BackgroundWrapper backgroundImage="./plane1.jpg">
         <ContactSection />
       </BackgroundWrapper>

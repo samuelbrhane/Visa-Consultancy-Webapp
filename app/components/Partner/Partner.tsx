@@ -32,7 +32,7 @@ const Partner: React.FC = () => {
   }, []);
 
   return (
-    <section className="flex flex-col-reverse lg:flex-row w-full mb-12 mt-28">
+    <section className="flex flex-col lg:flex-row w-full mb-12 lg:mt-28 mt-20">
       <div
         ref={fadeInRef}
         className={`w-full lg:w-1/2 -my-10 px-4 md:px-6 lg:px-12 bg-blue-800 flex items-center justify-center rounded-r-xl ${
@@ -41,7 +41,7 @@ const Partner: React.FC = () => {
       >
         <PartnerImage />
       </div>
-      <div className="w-full lg:w-1/2 flex flex-col justify-center">
+      <div className="w-full lg:w-1/2 flex flex-col justify-center mt-16 md:mt-0">
         <PartnerInfo />
       </div>
     </section>
