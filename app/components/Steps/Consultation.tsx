@@ -11,7 +11,7 @@ const Consultation: React.FC = () => {
     <section className="relative flex flex-col md:flex-row items-center justify-between py-16 px-4 md:px-6 lg:px-12">
       {/* Background Image */}
       <div className="absolute inset-0 z-0 ">
-        <div className="absolute z-30 bg-blue-200 opacity-30 inset-0"></div>
+        <div className="absolute z-30 bg-black opacity-70 inset-0"></div>
         {/* <Image
           src="/consultation.avif"
           alt="Background Image"
@@ -41,7 +41,7 @@ const Consultation: React.FC = () => {
         </motion.div>
       </div>
 
-      <div className="relative z-10 w-full md:w-1/2 mt-8 md:mt-0 flex flex-col items-center md:items-start text-center md:text-left">
+      <div className="relative z-10 w-full md:w-1/2 mt-8 md:mt-0 text-white flex flex-col items-center md:items-start text-center md:text-left">
         <motion.h3
           className="text-3xl font-bold mb-4"
           initial={{ opacity: 0, y: 20 }}

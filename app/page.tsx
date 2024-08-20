@@ -7,6 +7,7 @@ import { FunFactSection } from "./components/FunFact";
 import { FavoriteDestinations } from "./components/Country";
 import { Consultation, HowWeWork } from "./components/Steps";
 import { ContactSection } from "./components/Contact";
+import { Success, Testimonials } from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -34,9 +35,12 @@ export default function Home() {
         <Consultation />
       </BackgroundWrapper>
 
-      <BackgroundWrapper backgroundImage="./plane1.jpg">
-        <ContactSection />
-      </BackgroundWrapper>
+      <Testimonials />
+      <Success />
+      <ContactSection />
+      {/* <BackgroundWrapper backgroundImage="./plane1.jpg">
+        
+      </BackgroundWrapper> */}
     </section>
   );
 }
