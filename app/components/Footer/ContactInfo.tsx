@@ -1,10 +1,19 @@
+"use client";
+
+import React from "react";
+import { motion } from "framer-motion";
 import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
 
 const ContactInfo = () => {
   return (
-    <div className="flex lg:justify-center">
+    <motion.div
+      initial={{ opacity: 0, x: -50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: false }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      className="flex lg:justify-center"
+    >
       <div>
         <h3 className="relative text-2xl font-bold pb-1 inline-block">
           Contact Info
@@ -28,7 +37,7 @@ const ContactInfo = () => {
           info@visaconsultancy.com
         </p>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

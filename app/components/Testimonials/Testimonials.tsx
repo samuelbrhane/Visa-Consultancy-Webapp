@@ -14,7 +14,7 @@ const TestimonialSection: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
-    }, 8000);
+    }, 5000);
     return () => clearInterval(interval);
   }, []);
 

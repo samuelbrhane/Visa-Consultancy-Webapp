@@ -1,8 +1,17 @@
+"use client";
+
 import React from "react";
+import { motion } from "framer-motion";
 
 const QuickLinks = () => {
   return (
-    <div className="flex lg:justify-center">
+    <motion.div
+      initial={{ opacity: 0, x: -50 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: false }}
+      transition={{ duration: 0.6, delay: 0.4 }}
+      className="flex lg:justify-center"
+    >
       <div>
         <h3 className="relative text-2xl font-bold pb-1 inline-block">
           Quick Links
@@ -37,7 +46,7 @@ const QuickLinks = () => {
           </li>
         </ul>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
