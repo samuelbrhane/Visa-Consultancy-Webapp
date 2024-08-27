@@ -8,6 +8,7 @@ import { FavoriteDestinations } from "./components/Country";
 import { Consultation, HowWeWork } from "./components/Steps";
 import { ContactSection } from "./components/Contact";
 import { Success, Testimonials } from "./components/Testimonials";
+import { FooterTop } from "./components/Footer";
 
 export default function Home() {
   return (
@@ -37,10 +38,14 @@ export default function Home() {
 
       <Testimonials />
       <Success />
+
       <ContactSection />
+
       {/* <BackgroundWrapper backgroundImage="./plane1.jpg">
         
       </BackgroundWrapper> */}
+
+      <FooterTop />
     </section>
   );
 }
