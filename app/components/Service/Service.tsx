@@ -20,8 +20,7 @@ const ServicesSection: React.FC = () => {
             Choose The Visa You Need Among our services
           </h3>
           <p className="text-lg mt-2">
-            Aliquam hendrerit enim erat, ut luctus leo interdum ac. Suspendisse
-            libero diam, accumsan ut ex at, consequat lobortis tortor.
+            Here is the list of our services! feel free to choose one!.
           </p>
         </div>
 
