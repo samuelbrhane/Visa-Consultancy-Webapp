@@ -90,7 +90,7 @@ const CompanyText = () => {
           variants={headerVariants}
           className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6 mt-4 text-[#a132a2]"
         >
-          ABOUT GLOBAL CONSULTANCY
+          ABOUT IGLOBAL VISA CONSULTANCY Company
         </motion.h1>
         <motion.h2
           ref={refSubheader}
@@ -108,11 +108,11 @@ const CompanyText = () => {
           variants={paragraphVariants}
           className="text-lg text-gray-700 mb-6"
         >
-          Maecenas dictum viverra porta. Praesent auctor risus vel orci
-          consectetur facilisis. Aliquam facilisis feugiat massa. Vestibulum eu
-          felis in lacus venenatis bibendum. Sed bibendum mauris mauris,
-          malesuada viverra mi consequat. In faucibus velit eget porttitor
-          ornare. Nunc vitae nunc ante.
+          At Global Consultancy, we provide expert visa and immigration services with 
+          a commitment to personalized care and real-time support. Our team of seasoned 
+          consultants ensures a seamless process, offering customized solutions tailored 
+          to your specific needs. With global reach and deep expertise, we help you navigate 
+          every step of your journey, from application to approval.
         </motion.p>
         <motion.div
           ref={refCards}
@@ -123,22 +123,22 @@ const CompanyText = () => {
         >
           <CompanyCard
             title="Real-Time Tracking"
-            subtitle="Stay updated with live tracking of your visa application process."
+            subtitle="Monitor your visa application with live updates."
             icon={faClock}
           />
           <CompanyCard
             title="Trusted Experts"
-            subtitle="Our team of seasoned immigration consultants will guide you every step of the way."
+            subtitle="Our experienced consultants guide you at every stage."
             icon={faUser}
           />
           <CompanyCard
             title="Personalized Services"
-            subtitle="Receive customized visa assistance that caters specifically to your needs"
+            subtitle="Tailored visa assistance to meet your unique requirements."
             icon={faSuitcaseRolling}
           />
           <CompanyCard
             title="Worldwide Assistance"
-            subtitle="Whether its for work, travel, or relocation, we provide visa services across the globe."
+            subtitle="omprehensive visa services for work, travel, or relocation globally."
             icon={faGlobe}
           />
         </motion.div>
