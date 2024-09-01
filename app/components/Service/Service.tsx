@@ -17,7 +17,7 @@ const ServicesSection: React.FC = () => {
         <div className="text-center mb-8">
           <h2 className="text-3xl font-bold">OUR SERVICE</h2>
           <h3 className="text-2xl font-semibold mt-4">
-            Choose The Visa You Need
+            Choose The Visa You Need Among our services
           </h3>
           <p className="text-lg mt-2">
             Aliquam hendrerit enim erat, ut luctus leo interdum ac. Suspendisse
