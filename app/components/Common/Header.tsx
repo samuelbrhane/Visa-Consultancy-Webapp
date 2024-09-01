@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         <div className="hidden lg:block py-2 px-4 text-white">
           <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-            APPLY NOW
+            SUBMIT REQUEST NOW
           </button>
         </div>
       </header>
@@ -66,7 +66,7 @@ const Header = () => {
           ))}
           <div className="block py-2 px-4 text-white hover:bg-gray-200">
             <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-              Apply Now
+              SUBMIT REQUEST Now
             </button>
           </div>
         </div>

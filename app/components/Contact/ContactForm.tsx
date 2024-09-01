@@ -49,7 +49,7 @@ const ContactForm: React.FC = () => {
         type="submit"
         className="w-full px-6 py-3 bg-blue-600 text-white rounded-lg flex items-center justify-center"
       >
-        SEND A MESSAGE
+        SEND REQUEST
       </button>
     </form>
   );

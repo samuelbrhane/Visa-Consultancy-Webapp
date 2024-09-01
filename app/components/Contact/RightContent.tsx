@@ -14,11 +14,10 @@ const RightContent: React.FC = () => {
         viewport={{ once: false }}
         transition={{ duration: 0.8 }}
       >
-        <h2 className="text-3xl font-bold mb-4">Contact With Us</h2>
+        <h2 className="text-3xl font-bold mb-4">Contact Us</h2>
         <p className="text-lg">
-          Let's Consultation Now. Sed nec sollicitudin dui. Duis metus neque,
-          egestas eu tristique quis, bibendum quis dui. Etiam pharetra sodales
-          eros et imperdiet.
+          Send us your request by filling the following Form and 
+          we will get back to you shortly.
         </p>
       </motion.div>
       <ContactForm />
