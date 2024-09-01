@@ -108,7 +108,7 @@ const CompanyText = () => {
           variants={paragraphVariants}
           className="text-lg text-gray-700 mb-6"
         >
-          At Global Consultancy, we provide expert visa and immigration services with 
+          At IGlobal Visa Consultancy, we provide expert visa and immigration services with 
           a commitment to personalized care and real-time support. Our team of seasoned 
           consultants ensures a seamless process, offering customized solutions tailored 
           to your specific needs. With global reach and deep expertise, we help you navigate 

@@ -26,13 +26,13 @@ const FooterAbout = () => {
         <div className="h-1 w-12 rounded bg-red-500 mb-4"></div>
 
         <p className="mb-4">
-        Visa Consultancy is a global firm specializing 
+        IGlobal Visa Consultancy is a global firm specializing 
         in expert visa and immigration guidance. We help
         individuals and businesses navigate international
         expansion smoothly and efficiently.
         </p>
         <div className="flex space-x-8">
-          <a href="#" className="text-gray-400 hover:text-white">
+          <a href="https//www.facebook.com/IGlobal-Visa" className="text-gray-400 hover:text-white">
             <FontAwesomeIcon icon={faFacebookF} size="lg" />
           </a>
           <a href="#" className="text-gray-400 hover:text-white">

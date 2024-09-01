@@ -51,7 +51,7 @@ const Hero = () => {
           animate={h1InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          Welcome to Global Visa Consultancy
+          Welcome to IGlobal Visa Consultancy 
         </motion.h1>
         <motion.h3
           ref={h3Ref}
@@ -60,8 +60,8 @@ const Hero = () => {
           animate={h3InView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Immigration & Visa <br />
-          <span className="font-bold">Agency Worldwide</span>
+          Immigration & Educational Visa  <br />
+          <span className="font-bold">Consultancy Agency Worldwide</span>
         </motion.h3>
         <motion.h2
           ref={h2Ref}
@@ -70,7 +70,7 @@ const Hero = () => {
           animate={h2InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          Best Solution to all Migration matters
+          We provide best consaltancy services to all your types of Visa!
         </motion.h2>
 
         <motion.p
@@ -80,9 +80,7 @@ const Hero = () => {
           animate={pInView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          Bridging Dreams, Connecting Continents: Your Visa, Your Voyage, Our
-          Expertise! Welcomes You to the Gateway of Boundless Possibilities,
-          Where Your Journey Unfolds Instantly!
+          Welcome to the gateway of endless possibilities, where your journey begins with our expertise. We connect your dreams to reality, ensuring your voyage is seamless and immediate. Your visa, your adventure—guided by our trusted expertise.
         </motion.p>
         <motion.button
           ref={buttonRef}
@@ -91,7 +89,7 @@ const Hero = () => {
           animate={buttonInView ? { scale: 1 } : { scale: 0 }}
           transition={{ duration: 1, delay: 2 }}
         >
-          APPLY NOW
+          SUBMIT YOUR REQUEST NOW
         </motion.button>
       </div>
     </div>
