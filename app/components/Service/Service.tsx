@@ -15,12 +15,12 @@ const ServicesSection: React.FC = () => {
     <section className="bg-white py-12 opacity-[0.96] px-4 md:px-6 lg:px-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-3xl font-bold">OUR SERVICE</h2>
+          <h2 className="text-3xl font-bold">OUR SERVICES</h2>
           <h3 className="text-2xl font-semibold mt-4">
-            Choose The Visa You Need Among our services
+            Visa Services Offered by iGlobal Visa Consultancy Company
           </h3>
           <p className="text-lg mt-2">
-            Here is the list of our services! feel free to choose one!.
+            Here is the list of our services, feel free to choose one!.
           </p>
         </div>
 
@@ -34,8 +34,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faSuitcaseRolling}
-              title="Working Visas"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Work Visa"
+              description="For individuals seeking employment abroad, these visas allow you to work and reside in the host country for the duration of your job. This category includes various types of work visas based on the specific job role and country requirements."
             />
           </motion.div>
 
@@ -47,8 +47,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faGraduationCap}
-              title="Study Visas"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Study Visa"
+              description="If you want to study at educational institution overseas/abroad, a study visa permits you to live and study in the host country throughout your course duration. This visa often includes provisions for part-time work."
             />
           </motion.div>
 
@@ -60,8 +60,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faBriefcase}
-              title="Business Visas"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Business/Tourist Visas"
+              description="Business visas are ideal for professionals needing to conduct short-term business activities like meetings, conferences, or negotiations in a foreign country. These visas typically do not permit long-term stays or full-time employment."
             />
           </motion.div>
         </div>
@@ -76,8 +76,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faUserFriends}
-              title="Family Visas"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Family Visa"
+              description="These visas are designed for family members of individuals who are legally residing in another country. Family visas often cover spouses, children, and dependent parents, allowing them to live together with their relative abroad."
             />
           </motion.div>
 
@@ -89,8 +89,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faUsers}
-              title="Diplomatic Visas"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Diplomatic Visa"
+              description="Diplomatic visas are issued to government officials and diplomats who are traveling internationally on official government business. They usually come with special privileges and immunities in the host country."
             />
           </motion.div>
 
@@ -102,8 +102,8 @@ const ServicesSection: React.FC = () => {
           >
             <ServiceCard
               icon={faUsers}
-              title="Immigration Consult"
-              description="Donec suscipit justo euismod magna efficitur quis."
+              title="Immigration Consultation"
+              description="iGlobal Visa offers professional advice and guidance for those looking to immigrate. This service helps you navigate the complex legalities and procedures involved in immigration, ensuring that you meet all requirements and submit the correct documentation."
             />
           </motion.div>
         </div>
