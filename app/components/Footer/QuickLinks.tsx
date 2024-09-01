@@ -20,28 +20,28 @@ const QuickLinks = () => {
 
         <ul className="space-y-2">
           <li>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://iglobalvisa.com" className="text-gray-400 hover:text-white">
               Home
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://iglobalvisa.com/contact-us" className="text-gray-400 hover:text-white">
               About Us
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://iglobalvisa.com/services" className="text-gray-400 hover:text-white">
               Services
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://iglobalvisa.com/contact-info" className="text-gray-400 hover:text-white">
               Contact
             </a>
           </li>
           <li>
-            <a href="#" className="text-gray-400 hover:text-white">
-              Blog
+            <a href="https://iglobalvisa.com/scholarship" className="text-gray-400 hover:text-white">
+              Free Scholarship Information
             </a>
           </li>
         </ul>
