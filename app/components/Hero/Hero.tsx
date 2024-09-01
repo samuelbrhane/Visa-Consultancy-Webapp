@@ -70,7 +70,7 @@ const Hero = () => {
           animate={h2InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 1 }}
         >
-          We provide best consaltancy services to all your types of Visa!
+          We provide best consultancy services to all types of Visa!
         </motion.h2>
 
         <motion.p
@@ -80,7 +80,8 @@ const Hero = () => {
           animate={pInView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          Welcome to the gateway of endless possibilities, where your journey begins with our expertise. We connect your dreams to reality, ensuring your voyage is seamless and immediate. Your visa, your adventure—guided by our trusted expertise.
+          The gateway of endless possibilities, where your journey begins with our expertise. 
+          We connect your dreams to reality, ensuring your voyage is seamless and immediate. 
         </motion.p>
         <motion.button
           ref={buttonRef}

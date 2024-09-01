@@ -41,18 +41,23 @@ const HeroContent: React.FC = () => {
       {[
         {
           icon: faGlobe,
-          title: "Apply Online Visa",
-          subtitle: "Complete your visa application online with ease.",
+          title: "Request our Services",
+          subtitle: "Complete your visa application service request online with ease.",
         },
         {
           icon: faGraduationCap,
-          title: "Education Permits",
-          subtitle: "Get assistance for obtaining education permits abroad.",
+          title: "Education Application",
+          subtitle: "We assist you applying to your desired colleges and Universities worldwide",
         },
         {
           icon: faUserTie,
-          title: "Immigration Experts",
-          subtitle: "Consult with our experienced immigration experts.",
+          title: "Immigration Consulting",
+          subtitle: "We can Consult you with on immigration matters with our experienced experts.",
+        },
+        {
+          icon: faUserTie,
+          title: "Work Visa",
+          subtitle: "We assist you in applying sucessfully for work Visa",
         },
       ].map((card, index) => (
         <motion.div
