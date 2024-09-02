@@ -32,7 +32,7 @@ const FooterAbout = () => {
         expansion smoothly and efficiently.
         </p>
         <div className="flex space-x-8">
-          <a href="https//www.facebook.com/IGlobal-Visa" className="text-gray-400 hover:text-white">
+          <a href="#" className="text-gray-400 hover:text-white">
             <FontAwesomeIcon icon={faFacebookF} size="lg" />
           </a>
           <a href="#" className="text-gray-400 hover:text-white">
