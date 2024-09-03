@@ -91,7 +91,7 @@ const Hero = () => {
           animate={buttonInView ? { scale: 1 } : { scale: 0 }}
           transition={{ duration: 1, delay: 2 }}
         >
-          SUBMIT YOUR REQUEST NOW
+          APPLY NOW
         </motion.button>
       </a>
       </div>
