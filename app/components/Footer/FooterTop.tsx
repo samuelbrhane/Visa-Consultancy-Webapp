@@ -11,7 +11,7 @@ const FooterTop = () => {
         <p className="text-lg">
           If you are ready to Apply for any type of visa, 
           <br />
-          Submit your application requests here.
+          Submit your application by clicking Apply Now Button.
         </p>
       </div>
       <div>
