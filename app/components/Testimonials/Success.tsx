@@ -30,7 +30,7 @@ const Success: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: false }}
           >
-            We Provide the Best Way {" "}
+            We Provide the Best Service {" "}
             <span className="block font-bold py-2">with affordable price!</span>
           </motion.h1>
 
@@ -42,7 +42,7 @@ const Success: React.FC = () => {
             viewport={{ once: false }}
           >
             You can make your dream come true with our help. We can apply to Universities across a globe 
-            for you, if your goal is to study abroad. We assist you with your immagration issues aswell!
+            for you, if your goal is to study abroad. We assist you with your immigration issues aswell!
           </motion.p>
         </div>
       </div>
