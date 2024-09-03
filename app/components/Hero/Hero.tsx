@@ -83,6 +83,7 @@ const Hero = () => {
           The gateway of endless possibilities, where your journey begins with our expertise. 
           We connect your dreams to reality, ensuring your voyage is seamless and immediate. 
         </motion.p>
+      <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer"></a>
         <motion.button
           ref={buttonRef}
           className="bg-blue-500 text-white px-4 py-2 rounded-md"
@@ -92,6 +93,7 @@ const Hero = () => {
         >
           SUBMIT YOUR REQUEST NOW
         </motion.button>
+      </a>
       </div>
     </div>
   );
