@@ -86,7 +86,7 @@ const Hero = () => {
       <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer"></a>
         <motion.button
           ref={buttonRef}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md"
+          className="bg-green-500 text-white px-4 py-2 rounded-md"
           initial={{ scale: 0 }}
           animate={buttonInView ? { scale: 1 } : { scale: 0 }}
           transition={{ duration: 1, delay: 2 }}
