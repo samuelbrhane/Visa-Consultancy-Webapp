@@ -34,15 +34,14 @@ const ChooseUs: React.FC = () => {
             initial="hidden"
             animate={controls}
           >
-            <h2 className="text-3xl font-bold">WHY CHOOSE US</h2>
+            <h2 className="text-3xl font-bold">WHY YOU SHOULD CHOOSE US?</h2>
             <h3 className="text-2xl font-semibold">
-              Many Benefits and Fast Process
+              Many Benefits
             </h3>
             <p>
-              Pellentesque habitant morbi tristique senectus et netus et
-              malesuada fames ac turpis egestas. Duis a viverra nibh. Maecenas
-              pulvinar feugiat sodales. Sed eleifend mollis imperdiet. Fusce
-              ornare lacus fermentum.
+              At IGlobal Visa Consultancy, We provide the best service with affordable price price.
+              Our price starts from as low as 10,000 ETB for Educational Application and 13,000 ETB 
+              for Tourism and Family Visa application.
             </p>
             <ul className="space-y-4">
               <li className="flex items-center space-x-2">
@@ -64,14 +63,14 @@ const ChooseUs: React.FC = () => {
                   icon={faAngleRight}
                   className="text-blue-600"
                 />
-                <span>Provide The Best Guidance</span>
+                <span>Money back Grantee</span>
               </li>
               <li className="flex items-center space-x-2">
                 <FontAwesomeIcon
                   icon={faAngleRight}
                   className="text-blue-600"
                 />
-                <span>Legal Immigration Success</span>
+                <span>High success rate </span>
               </li>
             </ul>
           </motion.div>
