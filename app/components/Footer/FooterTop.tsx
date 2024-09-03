@@ -24,8 +24,8 @@ const FooterTop = () => {
         />
       </div>
       <div className="block py-2 px-4 text-white hover:bg-gray-200">
-            <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
-              SUBMIT REQUEST Now
+            <button className="bg-green-500 text-white px-4 py-2 rounded-md">
+              Apply Now
             </button>
           </div>
     </div>
