@@ -22,7 +22,7 @@ const ContactInfo = () => {
 
         <p className="mb-2">
           <FontAwesomeIcon icon={faPhone} className="mr-2" /> Italy: +39 3898 707547/
-          +39 3513 873276
+                                                                     +39 3513 873276
         </p>
         <p className="mb-2">
           <FontAwesomeIcon icon={faPhone} className="mr-2" /> Germany: +49 123
