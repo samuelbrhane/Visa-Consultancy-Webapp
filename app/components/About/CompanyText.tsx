@@ -138,7 +138,7 @@ const CompanyText = () => {
           />
           <CompanyCard
             title="Worldwide Assistance"
-            subtitle="omprehensive visa services for work, travel, or relocation globally."
+            subtitle="Comprehensive visa services for work, travel, or relocation globally."
             icon={faGlobe}
           />
         </motion.div>
