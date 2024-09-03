@@ -44,6 +44,11 @@ const QuickLinks = () => {
               Free Scholarship Information
             </a>
           </li>
+          <li>
+            <a href="https://iglobalvisa.com/Apply" className="text-gray-400 hover:text-white">
+              SUBMIT YOUR REQUEST NOW
+            </a>
+          </li>
         </ul>
       </div>
     </motion.div>
