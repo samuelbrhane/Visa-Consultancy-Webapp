@@ -22,15 +22,6 @@ const FooterTop = () => {
           height={700}
           className="rounded-2xl w-full h-full"
         />
-        <motion.button
-          ref={buttonRef}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md"
-          initial={{ scale: 0 }}
-          animate={buttonInView ? { scale: 1 } : { scale: 0 }}
-          transition={{ duration: 1, delay: 2 }}
-        >
-          SUBMIT YOUR REQUEST NOW
-        </motion.button>
       </div>
     </div>
   );
