@@ -32,6 +32,9 @@ const ContactInfo = () => {
           <FontAwesomeIcon icon={faPhone} className="mr-2" /> UK: +44 7775 729093
         </p>
         <p className="mb-2">
+          <FontAwesomeIcon icon={faPhone} className="mr-2" /> ETH: +251 91289 1441
+        </p>
+        <p className="mb-2">
           <FontAwesomeIcon icon={faEnvelope} className="mr-2" />{" "}
           info@iglobalvisa.com
         </p>
