@@ -23,11 +23,11 @@ const FooterTop = () => {
           className="rounded-2xl w-full h-full"
         />
       </div>
-      <li>
-            <a href="https://iglobalvisa.com/Apply" className="text-green-400 hover:text-blue">
-            SUBMIT YOUR REQUEST NOW
-            </a>
-          </li>
+      <div className="block py-2 px-4 text-white hover:bg-gray-200">
+            <button className="bg-blue-500 text-white px-4 py-2 rounded-md">
+              SUBMIT REQUEST Now
+            </button>
+          </div>
     </div>
   );
 };
