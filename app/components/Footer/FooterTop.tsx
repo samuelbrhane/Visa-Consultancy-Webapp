@@ -13,6 +13,11 @@ const FooterTop = () => {
           <br />
           Submit your application requests here.
         </p>
+        <li>
+            <a href="https://iglobalvisa.com/Apply" className="text-gray-400 hover:text-white">
+              SUBMIT YOUR REQUEST NOW
+            </a>
+          </li>
       </div>
       <div>
         <Image
@@ -23,13 +28,6 @@ const FooterTop = () => {
           className="rounded-2xl w-full h-full"
         />
       </div>
-      <motion.button
-          ref={buttonRef}
-          className="bg-blue-500 text-white px-4 py-2 rounded-md"
-          initial={{ scale: 0 }}
-        >
-          SUBMIT YOUR REQUEST NOW
-        </motion.button>
     </div>
   );
 };
