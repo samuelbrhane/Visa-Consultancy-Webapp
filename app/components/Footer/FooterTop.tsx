@@ -23,9 +23,6 @@ const FooterTop = () => {
           className="rounded-2xl w-full h-full"
         />
       </div>
-
-    </div>
-    <div>
       <li>
             <a href="https://iglobalvisa.com/Apply" className="text-green-400 hover:text-blue">
             SUBMIT YOUR REQUEST NOW
