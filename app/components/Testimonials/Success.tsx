@@ -19,7 +19,7 @@ const Success: React.FC = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: false }}
           >
-            We provide the best service
+            Best service!
           </motion.h1>
 
           {/* Animate the second headline */}
@@ -30,8 +30,8 @@ const Success: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: false }}
           >
-            We Provide The Best Way To{" "}
-            <span className="block font-bold py-2">Success Your Migration</span>
+            We Provide the Best Way {" "}
+            <span className="block font-bold py-2">with affordable price!</span>
           </motion.h1>
 
           {/* Animate the paragraph */}
@@ -41,9 +41,8 @@ const Success: React.FC = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: false }}
           >
-            Donec diam augue consequat sit amet metus ac bibendum mattis massa.
-            Duis mollis ligula pretium consequat alique nibh purus fermentum mi
-            bibendum.
+            You can make your dream come true with our help. We can apply to Universities across a globe 
+            for you, if your goal is to study abroad. We assist you with your immagration issues aswell!
           </motion.p>
         </div>
       </div>

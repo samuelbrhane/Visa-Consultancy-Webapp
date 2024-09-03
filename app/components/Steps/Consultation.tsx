@@ -72,14 +72,14 @@ const Consultation: React.FC = () => {
           sem scelerisque.
         </motion.p>
         {/* <motion.a
-          href="https://demo.wprise.co/VisaVision/apply-now/"
+          href="https://iglobalvisa.com/apply"
           className="inline-flex items-center justify-center px-6 py-3 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition duration-300"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          APPLY NOW
+          SUBMIT  REQUEST
           <FontAwesomeIcon icon={faLongArrowAltRight} className="ml-2" />
         </motion.a> */}
       </div>
