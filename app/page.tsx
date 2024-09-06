@@ -1,6 +1,5 @@
 import { Hero, HeroContent } from "./components/Hero";
 import { About } from "./components/About";
-import { Partner } from "./components/Partner";
 import { ChooseUs, Service } from "./components/Service";
 import BackgroundWrapper from "./BackgroundWrapper";
 import { FunFactSection } from "./components/FunFact";
@@ -18,8 +17,6 @@ export default function Home() {
       <BackgroundWrapper backgroundImage="./wrapper1.jpg">
         <About />
       </BackgroundWrapper>
-
-      <Partner />
 
       <BackgroundWrapper backgroundImage="./travel1.jpg">
         <Service />
