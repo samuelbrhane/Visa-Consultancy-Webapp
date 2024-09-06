@@ -36,12 +36,6 @@ const TestimonialSection: React.FC = () => {
         </AnimatePresence>
       </div>
 
-      {/* Right Side - Large Image */}
-      <div className="w-full h-[70vh] lg:h-[90vh] lg:-ml-10 mt-6 lg:mt-0">
-        <div className="relative h-full">
-          <Image src="/8-8.jpg" alt="Our Experience" layout="fill" />
-        </div>
-      </div>
     </section>
   );
 };
