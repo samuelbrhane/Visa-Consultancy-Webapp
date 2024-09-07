@@ -9,11 +9,23 @@ const FooterTop = () => {
           Ready to apply for Visa?
         </h1>
         <p className="text-lg">
-          If you are ready to Apply for any type of visa, 
+          If you are ready to Apply for any type of visa,
           <br />
           Submit your application by clicking "Apply Now Button".
         </p>
+        <div className="block py-2 text-white hover:bg-gray-200">
+          <a
+            href="https://iglobalvisa.com/apply"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-green-500 text-white px-4 py-2 rounded-md">
+              Apply Now
+            </button>
+          </a>
+        </div>
       </div>
+
       <div>
         <Image
           src="/foot1.png"
@@ -23,13 +35,6 @@ const FooterTop = () => {
           className="rounded-2xl w-full h-full"
         />
       </div>
-      <div className="block py-2 px-4 text-white hover:bg-gray-200">
-          <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-500 text-white px-4 py-2 rounded-md">
-              Apply Now
-            </button>
-            </a>
-          </div>
     </div>
   );
 };

@@ -18,28 +18,33 @@ const QuickLinks = () => {
         </h3>
         <div className="h-1 w-12 rounded bg-red-500 mb-4"></div>
 
-        <ul className="space-y-2">
+        <ul className="space-y-4">
           <li>
-            <a href="https://iglobalvisa.com" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white">
               Home
             </a>
           </li>
           <li>
-            <a href="https://iglobalvisa.com/contact-us" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white">
               About Us
             </a>
           </li>
           <li>
-            <a href="https://iglobalvisa.com/services" className="text-gray-400 hover:text-white">
+            <a href="#" className="text-gray-400 hover:text-white">
               Services
             </a>
           </li>
           <li>
-            <a href="https://iglobalvisa.com/contact-info" className="text-gray-400 hover:text-white">
-              Contact
+            <a href="#" className="text-gray-400 hover:text-white">
+              Countries
             </a>
           </li>
           <li>
+            <a href="#" className="text-gray-400 hover:text-white">
+              Contact
+            </a>
+          </li>
+          {/* <li>
             <a href="https://iglobalvisa.com/scholarship" className="text-gray-400 hover:text-white">
               Free Scholarship Information
             </a>
@@ -48,7 +53,7 @@ const QuickLinks = () => {
             <a href="https://iglobalvisa.com/Apply" className="text-gray-400 hover:text-white">
               SUBMIT YOUR REQUEST NOW
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </motion.div>

@@ -21,7 +21,7 @@ const Header = () => {
             alt="logo"
             width={100}
             height={100}
-            className="w-16 h-[70px] lg:w-24 lg:h-[100px]"
+            className="w-24 h-[100px] lg:w-21 lg:h-[120px]"
           />
         </div>
 
@@ -38,15 +38,19 @@ const Header = () => {
             </Link>
           ))}
         </div>
-      <div className="hidden lg:block py-2 px-4 text-white">
-        <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer">
-          <button className="bg-green-500 text-white px-4 py-2 rounded-md">
-            APPLY NOW
-          </button>
+        <div className="hidden lg:block py-2 px-4 text-white">
+          <a
+            href="https://iglobalvisa.com/apply"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="bg-green-500 text-white px-4 py-2 rounded-md">
+              APPLY NOW
+            </button>
           </a>
-      </div>
+        </div>
       </header>
-       <div
+      <div
         className={`fixed z-10 top-0 right-0 h-full w-52 flex-col items-center bg-[#08030a] transition-transform duration-500 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
@@ -67,11 +71,15 @@ const Header = () => {
             </Link>
           ))}
           <div className="block py-2 px-4 text-white hover:bg-gray-200">
-          <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer">
-            <button className="bg-green-500 text-white px-4 py-2 rounded-md">
-              APPLY NOW
-            </button>
-              </a>
+            <a
+              href="https://iglobalvisa.com/apply"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-green-500 text-white px-4 py-2 rounded-md">
+                APPLY NOW
+              </button>
+            </a>
           </div>
         </div>
       </div>

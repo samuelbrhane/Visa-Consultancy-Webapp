@@ -42,23 +42,26 @@ const HeroContent: React.FC = () => {
         {
           icon: faGlobe,
           title: "Request our Services",
-          subtitle: "Complete your visa application service request online with ease.",
+          subtitle:
+            "Complete your visa application service request online with ease.",
         },
         {
           icon: faGraduationCap,
           title: "Education Application",
-          subtitle: "We assist you applying to your desired colleges and Universities worldwide",
+          subtitle:
+            "We assist you applying to your desired colleges and Universities worldwide",
         },
         {
           icon: faUserTie,
           title: "Immigration Consulting",
-          subtitle: "We can Consult you with on immigration matters with our experienced experts.",
+          subtitle:
+            "We can Consult you with on immigration matters with our experienced experts.",
         },
-        {
-          icon: faUserTie,
-          title: "Work Visa",
-          subtitle: "We assist you in applying sucessfully for work Visa",
-        },
+        // {
+        //   icon: faUserTie,
+        //   title: "Work Visa",
+        //   subtitle: "We assist you in applying sucessfully for work Visa",
+        // },
       ].map((card, index) => (
         <motion.div
           key={index}

@@ -51,7 +51,7 @@ const Hero = () => {
           animate={h1InView ? { y: 0, opacity: 1 } : { y: -50, opacity: 0 }}
           transition={{ duration: 1 }}
         >
-          Welcome to IGlobal Visa Consultancy 
+          Welcome to IGlobal Visa Consultancy
         </motion.h1>
         <motion.h3
           ref={h3Ref}
@@ -60,7 +60,7 @@ const Hero = () => {
           animate={h3InView ? { x: 0, opacity: 1 } : { x: -50, opacity: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Immigration & Educational Visa  <br />
+          Immigration & Educational Visa <br />
           <span className="font-bold">Consultancy Agency Worldwide</span>
         </motion.h3>
         <motion.h2
@@ -80,20 +80,25 @@ const Hero = () => {
           animate={pInView ? { y: 0, opacity: 1 } : { y: 50, opacity: 0 }}
           transition={{ duration: 1, delay: 1.5 }}
         >
-          The gateway of endless possibilities, where your journey begins with our expertise. 
-          We connect your dreams to reality, ensuring your voyage is seamless and immediate. 
+          The gateway of endless possibilities, where your journey begins with
+          our expertise. We connect your dreams to reality, ensuring your voyage
+          is seamless and immediate.
         </motion.p>
-      <a href="https://iglobalvisa.com/apply" target="_blank" rel="noopener noreferrer"></a>
-        <motion.button
-          ref={buttonRef}
-          className="bg-green-500 text-white px-4 py-2 rounded-md"
-          initial={{ scale: 0 }}
-          animate={buttonInView ? { scale: 1 } : { scale: 0 }}
-          transition={{ duration: 1, delay: 2 }}
+        <a
+          href="https://iglobalvisa.com/apply"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          APPLY NOW
-        </motion.button>
-      </a>
+          <motion.button
+            ref={buttonRef}
+            className="bg-green-500 text-white px-4 py-2 rounded-md"
+            initial={{ scale: 0 }}
+            animate={buttonInView ? { scale: 1 } : { scale: 0 }}
+            transition={{ duration: 1, delay: 2 }}
+          >
+            APPLY NOW
+          </motion.button>
+        </a>
       </div>
     </div>
   );

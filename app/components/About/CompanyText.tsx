@@ -90,7 +90,7 @@ const CompanyText = () => {
           variants={headerVariants}
           className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6 mt-4 text-[#a132a2]"
         >
-          ABOUT IGLOBAL VISA CONSULTANCY Company
+          ABOUT IGLOBAL VISA CONSULTANCY
         </motion.h1>
         <motion.h2
           ref={refSubheader}
@@ -108,11 +108,12 @@ const CompanyText = () => {
           variants={paragraphVariants}
           className="text-lg text-gray-700 mb-6"
         >
-          At IGlobal Visa Consultancy, we provide expert visa and immigration services with 
-          a commitment to personalized care and real-time support. Our team of seasoned 
-          consultants ensures a seamless process, offering customized solutions tailored 
-          to your specific needs. With global reach and deep expertise, we help you navigate 
-          every step of your journey, from application to approval.
+          At IGlobal Visa Consultancy, we provide expert visa and immigration
+          services with a commitment to personalized care and real-time support.
+          Our team of seasoned consultants ensures a seamless process, offering
+          customized solutions tailored to your specific needs. With global
+          reach and deep expertise, we help you navigate every step of your
+          journey, from application to approval.
         </motion.p>
         <motion.div
           ref={refCards}
