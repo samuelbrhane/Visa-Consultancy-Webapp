@@ -52,7 +52,7 @@ const AboutImage = () => {
   };
 
   return (
-    <div className="relative h-[400px] lg:h-[550px] w-full flex justify-center mt-20 lg:mt-0">
+    <div className="relative h-full w-full flex justify-center mt-20 lg:mt-0 bg-white">
       <Image
         src="/hero5.jpg"
         alt="Company Intro"

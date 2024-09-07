@@ -82,13 +82,13 @@ const CompanyText = () => {
 
   return (
     <div className="relative">
-      <div className="flex lg:absolute flex-col justify-center -top-16 w-full lg:w-auto">
+      <div className="flex flex-col justify-center  w-full">
         <motion.h1
           ref={refHeader}
           initial="hidden"
           animate={controlsHeader}
           variants={headerVariants}
-          className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6 mt-4 text-[#a132a2]"
+          className="text-3xl lg:text-4xl font-bold mb-4 lg:mb-6 mt-4 text-[#a132a2] -top-16 lg:absolute"
         >
           ABOUT IGLOBAL VISA CONSULTANCY
         </motion.h1>
