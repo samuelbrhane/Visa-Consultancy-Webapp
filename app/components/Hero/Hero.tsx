@@ -85,7 +85,7 @@ const Hero = () => {
           is seamless and immediate.
         </motion.p>
         <a
-          href="https://iglobalvisa.com/apply"
+          href="https://applyiglobalvisa.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
