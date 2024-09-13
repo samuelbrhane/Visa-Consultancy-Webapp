@@ -29,7 +29,7 @@ const HowWeWork: React.FC = () => {
             augue magna, egestas.
           </p>
           <a
-            href="#"
+            href="https://apply.iglobalvisa.com"
             className="inline-block px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
           >
             Apply Now
