@@ -40,7 +40,7 @@ const Header = () => {
         </div>
         <div className="hidden lg:block py-2 px-4 text-white">
           <a
-            href="https://iglobalvisa.com/apply"
+            href="https://apply.iglobalvisa.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -72,7 +72,7 @@ const Header = () => {
           ))}
           <div className="block py-2 px-4 text-white hover:bg-gray-200">
             <a
-              href="https://iglobalvisa.com/apply"
+              href="https://apply.iglobalvisa.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
