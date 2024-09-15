@@ -4,9 +4,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   faFacebookF,
-  faInstagram,
-  faLinkedinIn,
-  faTwitter,
+  faTiktok,
+  faWhatsapp,
+  faTelegram,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -35,14 +35,14 @@ const FooterAbout = () => {
           <a href="#" className="text-gray-400 hover:text-white">
             <FontAwesomeIcon icon={faFacebookF} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faTwitter} size="lg" />
+          <a href="https://www.tiktok.com/@iglobalvisa" className="text-gray-400 hover:text-white">
+            <FontAwesomeIcon icon={faTiktok} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faInstagram} size="lg" />
+          <a href="https://wa.me/+393898707547" className="text-gray-400 hover:text-white">
+            <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
-          <a href="#" className="text-gray-400 hover:text-white">
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg" />
+          <a href="https://t.me/Iglobal_visa" className="text-gray-400 hover:text-white">
+            <FontAwesomeIcon icon={faTelegram} size="lg" />
           </a>
         </div>
       </div>
