@@ -38,7 +38,7 @@ const FooterAbout = () => {
           <a href="https://www.tiktok.com/@iglobalvisa" className="text-gray-400 hover:text-white">
             <FontAwesomeIcon icon={faTiktok} size="lg" />
           </a>
-          <a href="https://wa.me/+393898707547" className="text-gray-400 hover:text-white">
+          <a href="https://chat.whatsapp.com/C5DM6uw0m29ABO3zAZjLjR" className="text-gray-400 hover:text-white">
             <FontAwesomeIcon icon={faWhatsapp} size="lg" />
           </a>
           <a href="https://t.me/Iglobal_visa" className="text-gray-400 hover:text-white">
